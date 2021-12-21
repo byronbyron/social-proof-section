@@ -163,4 +163,35 @@ p {
     .page-text {
         max-width: none;
     }
+
+    .reviews {
+        margin-top: 1rem;
+    }
+
+    .reviews li {
+        font-size: 0.8125rem;
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        max-width: 445px;
+    }
+
+    .reviews li:nth-child(2) {
+        margin-left: 3rem;
+    }
+
+    .reviews li:nth-child(3) {
+        margin-left: 6rem;
+    }
+
+    .review-stars {
+        margin-bottom: 0;
+        margin-right: 1.875rem;
+    }
+
+    .review-stars img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.25rem;
+    }
 }

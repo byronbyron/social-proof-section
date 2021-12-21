@@ -150,9 +150,25 @@ p {
         padding-right: 15px;
     }
 
+    .col-4 {
+        flex: 1 0 33.33%;
+        max-width: 33.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .col-4:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .col-4:nth-child(3) {
+        margin-top: 2rem;
+    }
+
     .page-body {
         text-align: left;
         max-width: 450px;
+        margin-bottom: 4.25rem;
     }
 
     .page-title {

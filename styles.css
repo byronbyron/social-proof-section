@@ -3,10 +3,11 @@
 
 :root {
     --very-dark-magenta: hsl(300, 43%, 22%);
-    --soft-pink: hsl(333, 80%, 67%);
+    --soft-pink: hsl(333 80% 67% / 80%);
 
     --dark-grayish-magenta: hsl(303, 10%, 53%);
     --light-grayish-magenta: hsl(300, 24%, 96%);
+    --light-grayish-magenta-90: hsl(300 24% 96% / 90%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -20,7 +21,7 @@ body {
     font-family: 'Spartan', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.7;
     min-height: 100vh;
     min-width: 375px;
     color: var(--very-dark-magenta);
@@ -52,6 +53,7 @@ p {
 
 .page-text {
     font-size: 0.875rem;
+    line-height: 1.8;
     max-width: 320px;
     margin: 0 auto 2.5rem;
 }
@@ -65,6 +67,7 @@ p {
 .reviews li {
     font-size: 0.875rem;
     font-weight: 700;
+    line-height: 1.9;
     margin-bottom: 1rem;
     padding: 1rem;
     background-color: var(--light-grayish-magenta);
@@ -111,6 +114,7 @@ p {
 
 .card-quote {
     margin: 0;
+    color: var(--light-grayish-magenta-90);
 }
 
 .card-quote p {
@@ -210,5 +214,9 @@ p {
         display: inline-block;
         vertical-align: middle;
         margin-right: 0.25rem;
+    }
+
+    .card {
+        padding-bottom: 2.5rem;
     }
 }

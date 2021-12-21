@@ -235,4 +235,24 @@ p {
     .card {
         padding-bottom: 2.5rem;
     }
+
+    .fade-1 {
+        animation: .5s .25s fade backwards ease-out;
+    }
+
+    .fade-2 {
+        animation: .5s .5s fade backwards ease-out;
+    }
+
+    .fade-3 {
+        animation: .5s 0.75s fade backwards ease-out;
+    }
+
+    @keyframes fade {
+        from {
+            transform: translate3d(0, -1rem, 0);
+            opacity: 0;
+        }
+    }
+
 }

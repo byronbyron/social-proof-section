@@ -4,6 +4,9 @@
 :root {
     --very-dark-magenta: hsl(300, 43%, 22%);
     --soft-pink: hsl(333, 80%, 67%);
+
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -53,6 +56,27 @@ p {
 
 .page-body {
     text-align: center;
+}
+
+.reviews {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.reviews li {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--light-grayish-magenta);
+    color: var(--very-dark-magenta);
+    border-radius: 0.625rem;
+    text-align: center;
+}
+
+.review-stars {
+    margin-bottom: 0.25rem;
 }
 
 .attribution {

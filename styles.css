@@ -7,7 +7,6 @@
 
     --dark-grayish-magenta: hsl(303, 10%, 53%);
     --light-grayish-magenta: hsl(300, 24%, 96%);
-    --light-grayish-magenta-90: hsl(300 24% 96% / 90%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -128,7 +127,7 @@ p {
 
 .card-quote {
     margin: 0;
-    color: var(--light-grayish-magenta-90);
+    color: var(--light-grayish-magenta);
 }
 
 .card-quote p {
